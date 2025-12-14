@@ -49,22 +49,16 @@ The plugin automatically detects the debugged process architecture.
 
 ## 📁 Project Structure
 
-PEB-Manipulator/
-│
+PEB-Manipulatoror/
 ├── src/ # Shared source code
 ├── include/ # Headers
 ├── resources/ # Icons / resources
-│
 ├── build/
-│ ├── x86/ # Output: PEB-Manipulator.dp32
-│ └── x64/ # Output: PEB-Manipulator.dp64
-│
-├── PEB-Manipulator.sln
+│   ├── x86/ # Output: PEB-Manipulator.dp32
+│   ├── x64/ # Output: PEB-Manipulator.dp64
+│   └── PEB-Manipulator.sln
 ├── README.md
 └── LICENSE
-
-markdown
-Copy code
 
 A **single Visual Studio solution** is used.  
 Depending on the selected build configuration, the correct plugin output
@@ -105,9 +99,6 @@ Depending on the selected build configuration, the correct plugin output
 PEB-Manipulator.dp32
 PEB-Manipulator.dp64
 
-yaml
-Copy code
-
 ---
 
 ## 📦 Installation
@@ -117,9 +108,6 @@ Copy code
 
 PEB-Manipulator.dp32 → x64dbg\plugins\x32
 PEB-Manipulator.dp64 → x64dbg\plugins\x64\
-
-yaml
-Copy code
 
 3. Restart **x64dbg**
 4. Load the plugin from the **Plugins** menu
@@ -132,9 +120,6 @@ Copy code
 2. Navigate to:
 
 Plugins → PEB-Manipulator
-
-yaml
-Copy code
 
 3. Select one of the available actions:
    - Read PEB fields
