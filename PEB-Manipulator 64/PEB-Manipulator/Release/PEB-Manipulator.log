@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+     Creating library D:\plugin-project\cpp\PEB-Manipulator\Release\PEB-Manipulator.lib and object D:\plugin-project\cpp\PEB-Manipulator\Release\PEB-Manipulator.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PEB-Manipulator.vcxproj -> D:\plugin-project\cpp\PEB-Manipulator\Release\PEB-Manipulator.dp32

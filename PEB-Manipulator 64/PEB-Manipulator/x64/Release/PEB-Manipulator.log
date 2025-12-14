@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+     Creating library D:\plugin-project\cpp\PEB-Manipulator\x64\Release\PEB-Manipulator.lib and object D:\plugin-project\cpp\PEB-Manipulator\x64\Release\PEB-Manipulator.exp
+  Generating code
+  0 of 15 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  PEB-Manipulator.vcxproj -> D:\plugin-project\cpp\PEB-Manipulator\x64\Release\PEB-Manipulator.dp64
