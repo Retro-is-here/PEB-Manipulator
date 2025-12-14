@@ -47,19 +47,7 @@ The plugin automatically detects the debugged process architecture.
 
 ---
 
-## 📁 Project Structure
-
-PEB-Manipulatoror/
-├── src/ # Shared source code
-├── include/ # Headers
-├── resources/ # Icons / resources
-├── build/
-│   ├── x86/ # Output: PEB-Manipulator.dp32
-│   ├── x64/ # Output: PEB-Manipulator.dp64
-│   └── PEB-Manipulator.sln
-├── README.md
-└── LICENSE
-
+## 📁 Project Detail
 A **single Visual Studio solution** is used.  
 Depending on the selected build configuration, the correct plugin output
 (`dp32` or `dp64`) is generated automatically.
